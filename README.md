@@ -16,7 +16,7 @@ Te project is divided into two-part:
 + The second part is an analysis using some libraries for data analysis based on [Pandas](https://pandas.pydata.org/docs/)
 
 
-<img src="https://github.com/iacopoerpichini/AAGM/blob/main/img/italia.jpg" height="400" width="600">
+<img src="https://github.com/iacopoerpichini/AAGM/blob/master/img/italia.jpg" height="400" width="600">
 
 ## Requirment
 
@@ -33,7 +33,7 @@ The code is divided into three files but a single file called Erpichini.py will 
 
 Build the graph of provinces P using NetworkX based on COVID data and a Random graph R, for both creations are tested two algorithms and evaluate the performance (see the .pdf document). 
 
-<img src="https://github.com/iacopoerpichini/AAGM/blob/main/img/graph_P.png" height="400" width="400"> <img src="https://github.com/iacopoerpichini/AAGM/blob/main/img/graph_R.png" height="400" width="400">
+<img src="https://github.com/iacopoerpichini/AAGM/blob/master/img/graph_P.png" height="400" width="400"> <img src="https://github.com/iacopoerpichini/AAGM/blob/master/img/graph_R.png" height="400" width="400">
 
 The algorithm analyzed are:
 + [Eulerian Path](https://en.wikipedia.org/wiki/Eulerian_path) (path not passing from the same street twice) in particular the Hierholzer's algorithm ([video for explain Eulerian Path (YouTube)](https://www.youtube.com/watch?v=8MpoO2zA2l4) ) and the networkX implementation.
