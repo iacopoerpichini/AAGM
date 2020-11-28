@@ -43,6 +43,7 @@ The algorithm analyzed are:
 
 ## Pandas analysis
 Is realized with a Jupyter Notebook
+<img src="https://github.com/iacopoerpichini/AAGM/blob/master/img/heatmap.ong" height="400" width="600">
 
 ## Testing machine spec
 All the test are runned on a machine with this specs:
