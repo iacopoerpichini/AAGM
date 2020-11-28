@@ -43,8 +43,12 @@ The algorithms analyzed are:
 
 
 ## Pandas analysis
-Is realized with a Jupyter Notebook
 
+The second part of the project is a Jupyter Notebook realized by the use of Pandas, geopandas and other libraries. 
+
+A general analysis of the COVID-19 situation in Italy and of the first and second wave of infections are showed and commented into the notebook. 
+
+This is a preview of the results.
 <img src="https://github.com/iacopoerpichini/AAGM/blob/master/img/heatmap.png" height="350" width="10000">
 
 ## Testing machine spec
