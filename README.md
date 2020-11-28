@@ -9,10 +9,10 @@ The data used to test the algorithm are the covid dataset of the Italian Departm
 Data are available at [https://github.com/pcm-dpc/COVID-19](https://github.com/pcm-dpc/COVID-19).
 
 The project is divided into two parts:
-+ The first one uses Python 3.7 for running two algorithms and to analyze some different implementations and to study their complexity.  
++ The first one uses Python 3.7 for running two algorithms ([Eulerian Path](https://en.wikipedia.org/wiki/Eulerian_path), [Clustering coefficient](https://it.wikipedia.org/wiki/Coefficiente_di_clustering) and to analyze some different implementations and to study their complexity.  
 + The second part is an analysis which uses some libraries for data analysis collected in a Jupyter Notebook.
 
-There is also a .pdf document that explains in detail the algorithm implemented in the first part: [Erpichini.pdf](https://github.com/iacopoerpichini/AAGM/tree/main/Erpichini.pdf).
+There is also a .pdf document that explains in detail the algorithm implemented in the first part: [Erpichini.pdf](https://github.com/iacopoerpichini/AAGM/blob/master/Erpichini.pdf).
 
 <img src="https://github.com/iacopoerpichini/AAGM/blob/master/img/italia.jpg" height="400" width="600">
 
@@ -32,7 +32,7 @@ The three files .py are stucured as follow:
 + `function.py` file contains all the implementations of the two algorithm previously mentioned being analyzed and some comments about the complexity
 + `utils.py` file contains some known functions that have been introduced in class and/or taken from the internet
 
-Build the graph of provinces P using NetworkX based on COVID data and a Random graph R, for both creations are tested two algorithms and evaluate the performance (see the .pdf document). 
+Firstly the graph of provinces P based on COVID data and a Random graph R are build using NetworkX,  two algorithms are tested for both creations and their performances are evaluated (see the .pdf document). 
 
 <img src="https://github.com/iacopoerpichini/AAGM/blob/master/img/graph_P.png" height="400" width="400"> <img src="https://github.com/iacopoerpichini/AAGM/blob/master/img/graph_R.png" height="400" width="400">
 
@@ -41,8 +41,6 @@ The algorithms analyzed are:
   Here we can see the application of this algorithm on toy example: [Hierholzer](https://www-m9.ma.tum.de/graph-algorithms/hierholzer/index_en.html#:~:text=The%20basic%20idea%20of%20Hierholzer's,first%20circle%20in%20the%20graph)
 + [Clustering coefficient](https://it.wikipedia.org/wiki/Coefficiente_di_clustering) for each node, in three versions: with a naive method, applying fast list intersection algorithm see at lesson and networkX implementation.
 
-
-  
 
 ## Pandas analysis
 Is realized with a Jupyter Notebook
