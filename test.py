@@ -13,7 +13,7 @@ if __name__ == '__main__':
     #print(provinces)
 
     """ Performance test for generation of graph (average of num_test)"""
-    num_test = 100
+    num_test = 1
     time_p_slow = 0
     time_p_fast = 0
     time_r_slow = 0
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     print("Using NetworkX Function on Toy example: ", time_eulerian_nx)
     print("Using simple implementation on Toy example: ", time_eulerian)
     plt.plot(num_node, time_eulerian, label='Implemented')
-    plt.plot(num_node, time_eulerian_nx, ls='-.', label='NetworkX')
+    # plt.plot(num_node, time_eulerian_nx, ls='-.', label='NetworkX')
     plt.xlabel('Number of graph vertex')
     plt.ylabel('Time')
     plt.title('Eulerian path')
