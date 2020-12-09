@@ -157,8 +157,10 @@ def hierholzer(graph):
             return "The graph is not eulerian"
     # save the neighbours maybe can save time?????
     # Create necessary data structures.
-    # print(nodes[0])
-    start = nodes[0]  # choose the start vertex to be the first vertex in the graph
+    # choose a start vertex random in graph
+    """start_node = random.randint(0,len(nodes))
+    start = nodes[start_node]"""
+    start = nodes[0] # start always with the first node
     circuit = [start]  # can use a linked list for better performance here
     traversed = {}
     ptr = 0
